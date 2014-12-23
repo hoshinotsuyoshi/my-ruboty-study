@@ -1,0 +1,24 @@
+{
+  "addons": [
+    "redistogo"
+  ],
+  "env": {
+    "SLACK_PASSWORD": {
+      "description": "The password of your ruboty's slack account."
+    },
+    "SLACK_ROOM": {
+      "description": "Comma-separated room names your ruboty first joins in.",
+      "value": "general"
+    },
+    "SLACK_TEAM": {
+      "description": "The name of your slack team."
+    },
+    "SLACK_USERNAME": {
+      "description": "The username of your ruboty's slack account.",
+      "value": "ruboty"
+    },
+    "TZ": {
+      "value": "Asia/Tokyo"
+    }
+  },
+}
