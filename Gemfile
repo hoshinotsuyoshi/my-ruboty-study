@@ -9,4 +9,5 @@ gem 'ruboty-talk'
 
 gem 'ruboty-gen'
 
-gem 'ruboty-mpush', path: 'ruboty-mpush'
+gem 'ruboty-mpush'
+gem 'ruboty-ruby_eval'

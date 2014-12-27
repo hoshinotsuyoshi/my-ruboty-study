@@ -1,9 +1,3 @@
-PATH
-  remote: ruboty-mpush
-  specs:
-    ruboty-mpush (0.0.1)
-      ruboty
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -49,9 +43,13 @@ GEM
     ruboty-gen (1.2.0)
       bundler (~> 1.7)
       ruboty
+    ruboty-mpush (0.0.0)
+      ruboty
     ruboty-redis (0.0.5)
       redis
       redis-namespace
+      ruboty
+    ruboty-ruby_eval (0.0.0)
       ruboty
     ruboty-talk (0.0.4)
       docomoru (>= 0.0.3)
@@ -68,6 +66,7 @@ DEPENDENCIES
   ruboty
   ruboty-cron
   ruboty-gen
-  ruboty-mpush!
+  ruboty-mpush
   ruboty-redis
+  ruboty-ruby_eval
   ruboty-talk
